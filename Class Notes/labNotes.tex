@@ -1,0 +1,75 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}	% Para caracteres en español
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{multirow,booktabs}
+\usepackage[table]{xcolor}
+\usepackage{fullpage}
+\usepackage{lastpage}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{wrapfig}
+\usepackage{setspace}
+\usepackage{calc}
+\usepackage{multicol}
+\usepackage{cancel}
+\usepackage[retainorgcmds]{IEEEtrantools}
+\usepackage[margin=3cm]{geometry}
+\usepackage{amsmath}
+\newlength{\tabcont}
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+\usepackage{empheq}
+\usepackage{framed}
+\usepackage[most]{tcolorbox}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\colorlet{shadecolor}{orange!15}
+\parindent 0in
+\parskip 12pt
+\geometry{margin=1in, headsep=0.25in}
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}
+\newtheorem{reg}{Rule}
+\newtheorem{exer}{Exercise}
+\newtheorem{note}{Note}
+\begin{document}
+
+%Change this for headings
+\setcounter{section}{0}
+\title{Lecture 1 Class Notes}
+
+\thispagestyle{empty}
+
+\begin{center}
+{\LARGE \bf Lab Notes}\\
+{\large PHY224: Optics Lab}\\
+Fall 2024
+\end{center}
+%Heading Ends
+
+
+\tableofcontents
+
+
+%Content Starts
+\section{Preparatory Lab}
+\subsection{Calibration of filters and photodiode}
+Factor by which the photodiode output increases, \textbf{Enhancement factor} = $m$ \\[10pt]
+\textbf{Transmittance} = $\frac{1}{m}$
+
+\subsection{Fluctuations in output power of He-Ne Laser}
+\textbf{Functioning of Laser}\\
+A laser consists of an optical cavity (essentially two mirrors facing each other, between which light propagates back and forth) with a gain medium inside it. As light propagates back and forth, its power gets amplified due to the gain medium. The energy required for this amplification is supplied externally, for example via an electrical discharge or a flash lamp. For sustained
+gain, light must travel a half-integer multiple of the wavelength over one round trip. Each admissible configuration, characterized by a specific path length over which light propagates, is termed a longitudinal mode.
+
+\textbf{Reasons of Fluctuations}
+\begin{itemize}
+\item Very short time scales corresponding to hundreds of megahertz frequencies that are caused due to beating of the longitudinal modes that are active in the cavity. You will need a fast photo-diode and high bandwidth oscilloscope to measure these fluctuations and You will not be able to observe these fast fluctuations in your laboratory experiment.
+\item Fluctuations at the frequency or harmonics of the power line frequency (∼ 50 Hz) caused by the power supply
+\item Fluctuations caused by mode cycling in the laser cavity due to thermal expansion of the laser tube. The longitudinal mode spacing depends on the laser tube length. As the laser tube length changes due to variation in temperature, the number of longitudinal modes falling under the gain bandwidth also changes, thereby affecting the number of longitudinal modes that are lasing. Typical values of the intensity fluctuation caused by this can be quite large. Study this phenomenon. Estimate the longitudinal mode spacing for your laser tube and see if you can understand this effect. The typical gain bandwidth for the He-Ne laser is about a Gigahertz.
+\end{itemize}
+
+
+
+\end{document}

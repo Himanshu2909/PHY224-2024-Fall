@@ -1,0 +1,89 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{multirow,booktabs}
+\usepackage[table]{xcolor}
+\usepackage{fullpage}
+\usepackage{lastpage}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{wrapfig}
+\usepackage{setspace}
+\usepackage{calc}
+\usepackage{multicol}
+\usepackage{cancel}
+\usepackage[retainorgcmds]{IEEEtrantools}
+\usepackage[margin=3cm]{geometry}
+\usepackage{amsmath}
+\newlength{\tabcont}
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+\usepackage{empheq}
+\usepackage{framed}
+\usepackage[most]{tcolorbox}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\colorlet{shadecolor}{orange!15}
+\parindent 0in
+\parskip 12pt
+\geometry{margin=1in, headsep=0.25in}
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}
+\newtheorem{reg}{Rule}
+\newtheorem{exer}{Exercise}
+\newtheorem{note}{Note}
+\begin{document}
+
+%Change this for headings
+\setcounter{section}{0}
+\title{Lecture 1 Class Notes}
+
+\thispagestyle{empty}
+
+\begin{center}
+{\LARGE \bf Lecture 1 Class Notes}\\
+{\large PHY401: Classical Mechanics}\\
+Fall 2024
+\end{center}
+%Heading Ends
+
+
+\tableofcontents
+
+
+%Content Starts
+\section{Review and Prerequisites}
+\subsection{Linear Algebra: Change of Basis}
+
+\subsection{Maxwells Equations}
+
+\begin{shaded}
+\renewcommand{\labelenumi}{\alph{enumi})}
+\begin{enumerate}
+\item $\nabla \cdot \textbf{E} = \frac{1}{\varepsilon} \rho$ (Gauss's Law) \newline
+\item $\nabla \cdot \textbf{B} = 0$ (no name) \newline
+\item $\nabla \times \textbf{E} = -\frac{\partial \textbf{B}}{\partial t}$ (Faradays Law) \newline
+\item $\nabla \times \textbf{B} = \mu_0 J + \epsilon_0 \frac{\partial \textbf{E}}{\partial t}$ (Amperes Law with Maxwell Correction) \newline
+\end{enumerate}
+\end{shaded}
+
+\subsection{Maxwells Equations in source free space}    
+
+\begin{shaded}
+\renewcommand{\labelenumi}{\alph{enumi})}
+\begin{enumerate}
+\item $\nabla \cdot \textbf{E} = 0$ (Gauss's Law) \newline
+\item $\nabla \cdot \textbf{B} = 0$ (no name) \newline
+\item $\nabla \times \textbf{E} = -\frac{\partial \textbf{B}}{\partial t}$ (Faradays Law) \newline
+\item $\nabla \times \textbf{B} = \epsilon_0 \frac{\partial \textbf{E}}{\partial t}$ (Amperes Law with Maxwell Correction) \newline
+\end{enumerate}
+\end{shaded}
+
+\subsection{Fresnel Formulae}
+
+\subsection{Harmonic Oscillators}
+
+\subsection{Quadratures}
+
+
+\end{document}
